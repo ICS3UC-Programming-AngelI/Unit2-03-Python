@@ -4,7 +4,9 @@
 # This program asks the user for the diameter and radius of
 # the pizza. It then calculates and displays the area and
 # perimeter of the pizza.
-import constants
+# import the TAX constants from the constants.py
+from constants import TAX
+import math
 
 
 def main():
@@ -21,7 +23,7 @@ def main():
     print("")
     print("Area = {} cm^2", format(area))
     print("Perimeter = {}cm".format(perimeter))
-    print("cost = {cost:.2f}$".format(cost))
+    print("cost = {:.2f}$".format(cost))
 
 
 if __name__ == "__main__":
