@@ -4,7 +4,7 @@
 # This program asks the user for the diameter and radius of
 # the pizza. It then calculates and displays the area and
 # perimeter of the pizza.
-# import the TAX constants from the constants.py
+# Import the TAX constants from the constants.py
 from constants import TAX
 import math
 
